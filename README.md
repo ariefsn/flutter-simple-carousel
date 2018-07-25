@@ -1,6 +1,6 @@
 # simple_carousel
 
-A new Flutter project.
+Simple carousel for flutter apps.
 
 ## Getting Started
 

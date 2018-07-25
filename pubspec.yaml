@@ -1,5 +1,5 @@
 name: simple_carousel
-description: A new Flutter project.
+description: Simple carousel for flutter apps.
 
 dependencies:
   flutter:
