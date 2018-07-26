@@ -136,22 +136,23 @@ class _SimpleCarouselState extends State<SimpleCarousel> {
                     new Column(
                       mainAxisAlignment: widget.alignment,
                       children: <Widget>[
+                        widget.arrow == true ?
                         new Arrow(
                           background: Colors.white70,
                           height: widget.height,
                           previous: (){
-                            _ctrlPage.nextPage(
-                              curve: Curves.ease,
-                              duration: Duration(milliseconds: 300)
-                            );
-                          },
-                          next: (){
                             _ctrlPage.previousPage(
                               curve: Curves.ease,
                               duration: Duration(milliseconds: 300)
                             );
                           },
-                        ),
+                          next: (){
+                            _ctrlPage.nextPage(
+                              curve: Curves.ease,
+                              duration: Duration(milliseconds: 300)
+                            );
+                          },
+                        ) : new Container(),
                         new Container(
                           padding: new EdgeInsets.only(top: 10.0, bottom: 10.0),
                           child: new Row(
@@ -245,23 +246,18 @@ class Arrow extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return new Container(
-      padding: new EdgeInsets.only(top: 10.0, bottom: 10.0),
       margin: new EdgeInsets.only(bottom: height/3.8),
       child: new Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: <Widget>[
-          new GestureDetector(
+          new FlatButton(
             child: new Icon(Icons.arrow_left, size: 50.0, color: background,),
-            onTap: (){
-              previous;
-            },
+            onPressed: previous,
           ),
-          new GestureDetector(
+          new FlatButton(
             child: new Icon(Icons.arrow_right, size: 50.0, color: background,),
-            onTap: (){
-              next;
-            },
-          )
+            onPressed: next,
+          ),
         ],
       ),
     );
