@@ -3,9 +3,9 @@
 Simple carousel for flutter apps with inifinite loop.
 
 ## Getting Started
-1. [Import It](https://github.com/ayiexz/flutter-simple-carousel#1-import-it)
-2. [Call It](https://github.com/ayiexz/flutter-simple-carousel#2-call-it)
-3. [Props](https://github.com/ayiexz/flutter-simple-carousel#3-properties)
+1. [Import It](#1-import-it)
+2. [Call It](#2-call-it)
+3. [Props](#3-properties)
 
 ### 1. Import it
 
