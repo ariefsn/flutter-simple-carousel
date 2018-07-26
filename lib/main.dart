@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:simple_carousel/views/home.dart';
 
+// Create by Arief Setiyo Nugroho <ayiexz22@gmail.com>
+// https://github.com/ayiexz/flutter-simple-carousel
+
 void main() => runApp(new MyApp());
 
 class MyApp extends StatelessWidget {

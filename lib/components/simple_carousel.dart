@@ -61,7 +61,6 @@ class _SimpleCarouselState extends State<SimpleCarousel> {
 
   @override
     void initState() {
-      // TODO: implement initState
       PageStorageKey(_ctrlPage);
       super.initState();
       autoplay();

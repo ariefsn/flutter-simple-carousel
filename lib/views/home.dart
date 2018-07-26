@@ -47,6 +47,7 @@ class _HomeState extends State<Home> {
           child: SimpleCarousel(
             autoplay: true,
             arrow: true,
+            backgroundArrow: Colors.white,
             direction: Axis.horizontal,
             fit: BoxFit.fill,
             fontColorLink: Colors.black,
