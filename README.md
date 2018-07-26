@@ -34,23 +34,22 @@ SimpleCarousel(
 | alignment             | MainAxisAlignment | MainAxisAlignment.end |
 | animationCurve        | Curve             | Curves.ease           |
 | animationDuration     | Duration          | 300 ms                |
+| arrow                 | Bool              | False                 |
 | autoplay              | Bool              | True                  |
 | autoplayDuration      | Duration          | 3 s                   |
-| arrow                 | Bool              | False                 |
 | backgroundArrow       | Color             | Colors.white70        |
 | backgroundLink        | Color             | Colors.white70        |
 | backgroundTitle       | Color             | Colors.white70        |
-| fontColorLink         | Color             | Colors.black          |
-| fontColorTitle        | Color             | Colors.black          |
 | direction             | Axis              | Axis.horizontal       |
 | fit                   | BoxFit            | BoxFit.fill           |
+| fontColorLink         | Color             | Colors.black          |
+| fontColorTitle        | Color             | Colors.black          |
 | height                | Double            | 100.0                 |
-| visibleLink           | Bool              | True                  |
-| visibleTitle          | Bool              | True                  |
 | images                | List<String>      | -                     |
 | links                 | List<String>      | -                     |
 | title                 | List<String>      | -                     |
-
+| visibleLink           | Bool              | True                  |
+| visibleTitle          | Bool              | True                  |
 
 For help getting started with Flutter, view our online
 [documentation](https://flutter.io/).
