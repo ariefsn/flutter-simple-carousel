@@ -30,7 +30,7 @@ SimpleCarousel(
 
 ### 3. Properties
 | Props                 | Type              | Default               |
-| -------------         |:-------------:    | -----------           |
+| -------------         |-------------      | -----------           |
 | alignment             | MainAxisAlignment | MainAxisAlignment.end |
 | animationCurve        | Curve             | Curves.ease           |
 | animationDuration     | Duration          | 300 ms                |
